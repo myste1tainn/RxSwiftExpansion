@@ -18,7 +18,6 @@ DEPENDENCIES:
   - Nimble (~> 7.0)
   - Quick (~> 1.2)
   - RxSwiftExpansion (from `../`)
-  - SwiftExpansion (from `../../SwiftExpansion`)
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
@@ -26,21 +25,20 @@ SPEC REPOS:
     - Quick
     - RxCocoa
     - RxSwift
+    - SwiftExpansion
 
 EXTERNAL SOURCES:
   RxSwiftExpansion:
     :path: "../"
-  SwiftExpansion:
-    :path: "../../SwiftExpansion"
 
 SPEC CHECKSUMS:
   Nimble: 051e3d8912d40138fa5591c78594f95fb172af37
   Quick: f4f7f063c524394c73ed93ac70983c609805d481
   RxCocoa: 0b54909c902e1e581212a03e690bbd94032d8baa
   RxSwift: 99e10317ddfcc7fbe01356aafd118fde4a0be104
-  RxSwiftExpansion: 719cd923f676a04d097be68e53e0fb6f1ea40f7c
-  SwiftExpansion: d2c1d28e135a7b5461f1eb9a1ab0ffbe8bbb78d6
+  RxSwiftExpansion: b85999ed62ede1196c13965a739f9989933f9154
+  SwiftExpansion: 9d50ba632895109e2b29fb77363e139e98be7022
 
-PODFILE CHECKSUM: b56a89731f36a83fd7eb9531d4a8786ea47efc58
+PODFILE CHECKSUM: eb2897d280c054217b04dccd423213f29af1f4c7
 
 COCOAPODS: 1.5.3

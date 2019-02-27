@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'RxSwiftExpansion'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of RxSwiftExpansion.'
+  s.summary          = 'Expansion pack for RxSwift/Cocoa'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +18,8 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+  The expansion adds various types of specialized observable/driver for convenience uses.
+  and helper functions to help adopter acheiving shorter and more readable rx code.
                        DESC
 
   s.homepage         = 'https://github.com/myste1tainn/RxSwiftExpansion'
@@ -31,6 +32,7 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'RxSwiftExpansion/RxSwift/**/*'
+  s.swift_version = '4.2'
 
   s.dependency 'RxSwift', '~> 4.2.0'
   s.dependency 'SwiftExpansion', '~> 0.1.0'
