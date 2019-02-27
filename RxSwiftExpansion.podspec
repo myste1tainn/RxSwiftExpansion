@@ -31,7 +31,9 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'RxSwiftExpansion/RxSwift/**/*'
+
   s.dependency 'RxSwift', '~> 4.2.0'
+  s.dependency 'SwiftExpansion', '~> 0.1.0'
 
   s.subspec 'RxCocoa' do |ss|
     ss.source_files = 'RxSwiftExpansion/RxCocoa/**/*'

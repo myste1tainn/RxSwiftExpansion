@@ -2,6 +2,7 @@ use_frameworks!
 
 target 'RxSwiftExpansion_Example' do
   pod 'RxSwiftExpansion', :path => '../'
+  pod 'SwiftExpansion', :path => '../../SwiftExpansion'
 
   target 'RxSwiftExpansion_Tests' do
     inherit! :search_paths

@@ -22,6 +22,8 @@ public final class ErrorTracker: SharedSequenceConvertibleType {
     _subject.onNext(error)
   }
   
+  public init() {}
+  
   deinit {
     _subject.onCompleted()
   }

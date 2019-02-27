@@ -11,19 +11,19 @@ extension ObservableType where E == Bool {
 }
 
 extension ObservableType {
-  func emptyIfError() -> Observable<E> {
+  public func emptyIfError() -> Observable<E> {
     return catchError { _ in
       return Observable.empty()
     }
   }
   
-  func asDriverEmptyIfError() -> Driver<E> {
+  public func asDriverEmptyIfError() -> Driver<E> {
     return asDriver { error in
       return Driver.empty()
     }
   }
   
-  func void() -> Observable<Void> {
+  public func void() -> Observable<Void> {
     return map { _ in }
   }
 }
