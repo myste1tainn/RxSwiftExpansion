@@ -1,5 +1,6 @@
-import UIKit
+#if TARGET_OS_SIMUATOR || TARGET_OS_iOS
 import SwiftExpansion
+import UIKit
 
 extension UITableViewCell: Reusable {}
 
@@ -23,3 +24,4 @@ extension UIStoryboard {
     return viewController
   }
 }
+#endif
