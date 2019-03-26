@@ -1,4 +1,0 @@
-module RxCocoaRuntime {
-    umbrella header "/Users/Myste1tainn/Projects/open_sources/RxSwiftExpansion/.build/checkouts/RxSwift.git-3904701897610370595/Sources/RxCocoaRuntime/include/RxCocoaRuntime.h"
-    export *
-}

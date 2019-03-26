@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "RxSwiftExpansion::RxSwiftExpansion"
-               BuildableName = "RxSwiftExpansion.framework"
-               BlueprintName = "RxSwiftExpansion"
+               BlueprintIdentifier = "RxSwiftExpansion::RxCocoaExpansion"
+               BuildableName = "RxCocoaExpansion.framework"
+               BlueprintName = "RxCocoaExpansion"
                ReferencedContainer = "container:RxSwiftExpansion.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -28,9 +28,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "RxSwiftExpansion::RxCocoaExpansion"
-               BuildableName = "RxCocoaExpansion.framework"
-               BlueprintName = "RxCocoaExpansion"
+               BlueprintIdentifier = "RxSwiftExpansion::RxSwiftExpansion"
+               BuildableName = "RxSwiftExpansion.framework"
+               BlueprintName = "RxSwiftExpansion"
                ReferencedContainer = "container:RxSwiftExpansion.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -79,14 +79,18 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "RxSwiftExpansion::RxSwiftExpansion"
-            BuildableName = "RxSwiftExpansion.framework"
-            BlueprintName = "RxSwiftExpansion"
+            BlueprintIdentifier = "RxSwiftExpansion::RxCocoaExpansion"
+            BuildableName = "RxCocoaExpansion.framework"
+            BlueprintName = "RxCocoaExpansion"
             ReferencedContainer = "container:RxSwiftExpansion.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
+      <LocationScenarioReference
+         identifier = "com.apple.dt.IDEFoundation.CurrentLocationScenarioIdentifier"
+         referenceType = "1">
+      </LocationScenarioReference>
    </LaunchAction>
    <ProfileAction
       buildConfiguration = "Release"

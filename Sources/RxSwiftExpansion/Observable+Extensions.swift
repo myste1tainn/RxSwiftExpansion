@@ -1,6 +1,5 @@
 import Foundation
 import RxSwift
-import RxCocoa
 
 extension ObservableType where E == Bool {
   /// Boolean not operator
@@ -14,12 +13,6 @@ extension ObservableType {
   public func emptyIfError() -> Observable<E> {
     return catchError { _ in
       return Observable.empty()
-    }
-  }
-  
-  public func asDriverEmptyIfError() -> Driver<E> {
-    return asDriver { error in
-      return Driver.empty()
     }
   }
   
