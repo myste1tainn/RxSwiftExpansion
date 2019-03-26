@@ -31,14 +31,14 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'RxSwiftExpansion/RxSwift/**/*'
+  s.source_files = 'Sources/RxSwiftExpansion/**/*'
   s.swift_version = '4.2'
 
-  s.dependency 'RxSwift', '~> 4.2.0'
+  s.dependency 'RxSwift', '~> 4.3.0'
   s.dependency 'SwiftExpansion', '~> 0.1.0'
 
   s.subspec 'RxCocoa' do |ss|
-    ss.source_files = 'RxSwiftExpansion/RxCocoa/**/*'
-    ss.dependency 'RxCocoa', '~> 4.2.0'
+    ss.source_files = 'Sources/RxCocoaExpansion/**/*'
+    ss.dependency 'RxCocoa', '~> 4.3.0'
   end
 end

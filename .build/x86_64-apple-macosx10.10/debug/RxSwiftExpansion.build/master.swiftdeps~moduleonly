@@ -1,0 +1,5 @@
+version: "Apple Swift version 4.2.1 (swiftlang-1000.11.42 clang-1000.11.45.1)"
+options: "f9a5d9c65a2a40a0fbe00e94e1c15907"
+build_time: [1553564414, 357909000]
+inputs:
+  "/Users/Myste1tainn/Projects/open_sources/RxSwiftExpansion/Sources/RxSwiftExpansion/RxSwiftExpansion.swift": [1553564297, 0]

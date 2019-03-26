@@ -1,0 +1,11 @@
+{
+  "": {
+    "swift-dependencies": "/Users/Myste1tainn/Projects/open_sources/RxSwiftExpansion/.build/x86_64-apple-macosx10.10/debug/RxSwiftExpansion.build/master.swiftdeps"
+  },
+  "/Users/Myste1tainn/Projects/open_sources/RxSwiftExpansion/Sources/RxSwiftExpansion/RxSwiftExpansion.swift": {
+    "dependencies": "/Users/Myste1tainn/Projects/open_sources/RxSwiftExpansion/.build/x86_64-apple-macosx10.10/debug/RxSwiftExpansion.build/RxSwiftExpansion.d",
+    "object": "/Users/Myste1tainn/Projects/open_sources/RxSwiftExpansion/.build/x86_64-apple-macosx10.10/debug/RxSwiftExpansion.build/RxSwiftExpansion.swift.o",
+    "swiftmodule": "/Users/Myste1tainn/Projects/open_sources/RxSwiftExpansion/.build/x86_64-apple-macosx10.10/debug/RxSwiftExpansion.build/RxSwiftExpansion~partial.swiftmodule",
+    "swift-dependencies": "/Users/Myste1tainn/Projects/open_sources/RxSwiftExpansion/.build/x86_64-apple-macosx10.10/debug/RxSwiftExpansion.build/RxSwiftExpansion.swiftdeps"
+  }
+}
