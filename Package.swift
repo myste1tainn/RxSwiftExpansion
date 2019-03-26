@@ -12,7 +12,7 @@ let package = Package(
             targets: ["RxSwiftExpansion"]),
         .library(
             name: "RxCocoaExpansion",
-            targets: ["RxSwiftExpansion"]),
+            targets: ["RxCocoaExpansion"]),
     ],
     dependencies: [
         // Dependencies declare other packages that this package depends on.
