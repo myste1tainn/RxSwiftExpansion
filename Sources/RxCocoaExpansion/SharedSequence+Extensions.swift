@@ -6,7 +6,7 @@ import Foundation
 import RxCocoa
 
 extension SharedSequenceConvertibleType {
-  func void() -> SharedSequence<SharingStrategy, Void> {
+  public func void() -> SharedSequence<SharingStrategy, Void> {
     return map { _ in }
   }
 }

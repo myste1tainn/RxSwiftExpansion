@@ -2,9 +2,11 @@
 import SwiftExpansion
 import UIKit
 
-extension UITableViewCell: Reusable {}
+extension UITableViewCell: Reusable {
+}
 
-extension UIViewController: Reusable {}
+extension UIViewController: Reusable {
+}
 
 extension UITableView {
   func dequeueReusableCell<T: UITableViewCell>(ofType cellType: T.Type = T.self, at indexPath: IndexPath) -> T {
@@ -17,7 +19,7 @@ extension UITableView {
 }
 
 extension UIStoryboard {
-  func instantiateViewController<T: UIViewController>(ofType type: T.Type = T.self) -> T {
+  func instantiate<T: UIViewController>(_ type: T.Type = T.self) -> T {
     guard let viewController = instantiateViewController(withIdentifier: type.reuseID) as? T else {
       fatalError()
     }
