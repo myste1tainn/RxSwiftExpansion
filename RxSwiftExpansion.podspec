@@ -38,7 +38,7 @@ Pod::Spec.new do |s|
   s.dependency 'SwiftExpansion', '~> 0.1.0'
 
   s.subspec 'RxCocoa' do |ss|
-    ss.source_files = 'Sources/RxCocoaExpansion/**/*' 'Sources/RxSwiftExpansion/**/*'
+    ss.source_files = 'Sources/RxCocoaExpansion/**/*', 'Sources/RxSwiftExpansion/**/*'
     ss.dependency 'RxCocoa', '~> 4.3.1'
   end
 end
