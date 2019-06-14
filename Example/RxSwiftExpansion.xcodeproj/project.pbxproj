@@ -270,10 +270,11 @@
 			inputFileListPaths = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-RxSwiftExpansion_Example/Pods-RxSwiftExpansion_Example-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-RxSwiftExpansion_Example/Pods-RxSwiftExpansion_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
 				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
 				"${BUILT_PRODUCTS_DIR}/RxSwiftExpansion/RxSwiftExpansion.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftExpansion/SwiftExpansion.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
@@ -282,10 +283,11 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwiftExpansion.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftExpansion.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RxSwiftExpansion_Example/Pods-RxSwiftExpansion_Example-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RxSwiftExpansion_Example/Pods-RxSwiftExpansion_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		65F68F7C3A872C609DE1ED92 /* [CP] Check Pods Manifest.lock */ = {
@@ -340,7 +342,7 @@
 			inputFileListPaths = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-RxSwiftExpansion_Tests/Pods-RxSwiftExpansion_Tests-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-RxSwiftExpansion_Tests/Pods-RxSwiftExpansion_Tests-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Nimble/Nimble.framework",
 				"${BUILT_PRODUCTS_DIR}/Quick/Quick.framework",
 			);
@@ -353,7 +355,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RxSwiftExpansion_Tests/Pods-RxSwiftExpansion_Tests-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RxSwiftExpansion_Tests/Pods-RxSwiftExpansion_Tests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
