@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'RxSwiftExpansion'
-  s.version          = '0.1.8'
+  s.version          = '0.2.0'
   s.summary          = 'Expansion pack for RxSwift/Cocoa'
 
 # This description is used to generate tags and improve search results.
@@ -35,7 +35,7 @@ Pod::Spec.new do |s|
   s.swift_version = '4.2'
 
   s.dependency 'RxSwift', '~> 4.3.1'
-  s.dependency 'SwiftExpansion', '~> 0.1.0'
+  s.dependency 'SwiftExpansion', '~> 0.2.0'
 
   s.subspec 'RxCocoa' do |ss|
     ss.source_files = 'Sources/RxCocoaExpansion/**/*', 'Sources/RxSwiftExpansion/**/*'
