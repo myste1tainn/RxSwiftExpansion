@@ -7,7 +7,7 @@ import RxSwift
 import RxCocoa
 
 extension ObservableType {
-  public func asDriverEmptyIfError() -> Driver<E> {
+  public func asDriverEmptyIfError() -> Driver<Element> {
     return asDriver { error in
       return Driver.empty()
     }

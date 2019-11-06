@@ -7,11 +7,11 @@ import RxSwift
 import RxCocoa
 
 extension DriverType {
-  public func map<Result>(_ keyPath: KeyPath<E, Result>) -> Driver<Result> {
+  public func map<Result>(_ keyPath: KeyPath<Element, Result>) -> Driver<Result> {
     return map { $0[keyPath: keyPath] }
   }
   
-  public func flatMap<Result>(_ keyPath: KeyPath<E, Result>) -> Driver<Result> {
+  public func flatMap<Result>(_ keyPath: KeyPath<Element, Result>) -> Driver<Result> {
     return flatMap { Driver.just($0[keyPath: keyPath]) }
   }
 }

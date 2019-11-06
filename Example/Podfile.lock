@@ -7,10 +7,6 @@ PODS:
   - RxRelay (5.0.1):
     - RxSwift (~> 5)
   - RxSwift (5.0.1)
-  - RxSwiftExpansion (1.0.0):
-    - RxSwift (~> 5.0)
-    - RxSwiftExpansion/RxCocoa (= 1.0.0)
-    - SwiftExpansion (~> 1.0)
   - RxSwiftExpansion/RxCocoa (1.0.0):
     - RxCocoa (~> 5.0)
     - RxSwift (~> 5.0)
@@ -20,7 +16,7 @@ PODS:
 DEPENDENCIES:
   - Nimble (~> 7.0)
   - Quick (~> 1.2)
-  - RxSwiftExpansion (from `../`)
+  - RxSwiftExpansion/RxCocoa (from `../`)
 
 SPEC REPOS:
   trunk:
@@ -41,9 +37,9 @@ SPEC CHECKSUMS:
   RxCocoa: e741b9749968e8a143e2b787f1dfbff2b63d0a5c
   RxRelay: 89d54507f4fd4d969e6ec1d4bd7f3673640b4640
   RxSwift: e2dc62b366a3adf6a0be44ba9f405efd4c94e0c4
-  RxSwiftExpansion: 9dc9d231aba9e886fc8adddab1f481c661d74f1b
+  RxSwiftExpansion: e445c5d075f9e953ac36ac872024d34d6c7443ef
   SwiftExpansion: 2e267ccdac60cd00e5d1ffb35e3070bbf78b59e7
 
-PODFILE CHECKSUM: eb2897d280c054217b04dccd423213f29af1f4c7
+PODFILE CHECKSUM: 3cbe7e0cb95970770e184497cc66451edc346ed1
 
 COCOAPODS: 1.8.4
