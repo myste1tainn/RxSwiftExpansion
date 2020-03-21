@@ -6,8 +6,8 @@
         "repositoryURL": "https://github.com/ReactiveX/RxSwift.git",
         "state": {
           "branch": null,
-          "revision": "fc6030ea9fe9b8af0351fe195b4095a9f2339757",
-          "version": "4.4.2"
+          "revision": "c1bd31b397d87a54467af4161dde9d6b27720c19",
+          "version": "5.1.0"
         }
       },
       {
@@ -15,8 +15,8 @@
         "repositoryURL": "https://github.com/myste1tainn/SwiftExpansion.git",
         "state": {
           "branch": null,
-          "revision": "c64f85d9a6f98f541d742d8ebfee92a7bac568b3",
-          "version": "0.1.2"
+          "revision": "e2195cfcdd514c4d0e4df6621349d15dbe24a067",
+          "version": "1.0.1"
         }
       }
     ]
